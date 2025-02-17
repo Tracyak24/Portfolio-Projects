@@ -25,11 +25,12 @@ Size-to-Price Relationship: How does property size correlate with price, and wha
 
 Overall Metrics Calculation:
        
-Total Listings & Average Pricing: Using aggregate functions like COUNT() and AVG() to gauge overall market activity and pricing trends.
+• Total Listings & Average Pricing: Using aggregate functions like COUNT() and AVG() to gauge overall market activity and pricing trends.
 
 Location Analysis:
-        High-Volume Locations: Grouping listings by location to determine which area hosts the most properties.
-        Cost Efficiency: Sorting locations by average listing price to highlight markets with the lowest entry costs.
+
+• High-Volume Locations: Grouping listings by location to determine which area hosts the most properties.
+•Cost Efficiency: Sorting locations by average listing price to highlight markets with the lowest entry costs.
 
 Feature-Based Filtering:
         Underpriced Properties: Identifying properties priced below the market average.
