@@ -24,6 +24,7 @@ Size-to-Price Relationship: How does property size correlate with price, and wha
 # Methodology:
 
 Overall Metrics Calculation:
+       
 Total Listings & Average Pricing: Using aggregate functions like COUNT() and AVG() to gauge overall market activity and pricing trends.
 
 Location Analysis:
