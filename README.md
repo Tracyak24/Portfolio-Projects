@@ -30,20 +30,28 @@ Overall Metrics Calculation:
 Location Analysis:
 
 • High-Volume Locations: Grouping listings by location to determine which area hosts the most properties.
-•Cost Efficiency: Sorting locations by average listing price to highlight markets with the lowest entry costs.
+
+• Cost Efficiency: Sorting locations by average listing price to highlight markets with the lowest entry costs.
 
 Feature-Based Filtering:
-        Underpriced Properties: Identifying properties priced below the market average.
-        Custom Search: Allowing for flexible filtering based on user-specified criteria (e.g., at least 3 bedrooms, 2 bathrooms, and a price cap), making the data actionable for targeted buyers.
-High-Value & Luxury Listings: Isolating properties priced above $1,000,000 to understand the premium segment.
+
+• Underpriced Properties: Identifying properties priced below the market average.
+        
+• Custom Search: Allowing for flexible filtering based on user-specified criteria (e.g., at least 3 bedrooms, 2 bathrooms, and a price cap), making the data actionable for targeted buyers.
+
+• High-Value & Luxury Listings: Isolating properties priced above $1,000,000 to understand the premium segment.
 
 Comparative & Segmentation Analysis:
-        Luxury vs. Affordable Markets: Using conditional logic (CASE statements) to classify and compare market segments based on pricing thresholds.
-        Average Feature Analysis: Calculating average numbers of bedrooms and bathrooms per location to assess property quality and market expectations.
+        
+• Luxury vs. Affordable Markets: Using conditional logic (CASE statements) to classify and compare market segments based on pricing thresholds.
+        
+• Average Feature Analysis: Calculating average numbers of bedrooms and bathrooms per location to assess property quality and market expectations.
 
 Size & Price Correlation:
-        Square Footage Analysis: Creating size ranges with a CASE statement and determining the average price per segment. This insight aids in understanding how property size influences overall market pricing.
-        Price Per Square Foot: Providing a detailed metric for property valuation and comparative market analysis.
+        
+• Square Footage Analysis: Creating size ranges with a CASE statement and determining the average price per segment. This insight aids in understanding how property size influences overall market pricing.
+        
+• Price Per Square Foot: Providing a detailed metric for property valuation and comparative market analysis.
 
 Value Proposition:
 
