@@ -8,7 +8,8 @@ Project Overview: Comprehensive Real Estate Market Analysis
 Objective:
 
 This project is designed to extract and analyze critical insights from a real estate listings dataset. By leveraging advanced SQL techniques, the analysis aims to understand market trends, property pricing, and listing features—ultimately providing a data-driven foundation for real estate investment and market strategy.
-Key Business Questions Addressed:
+
+# Key Business Questions Addressed:
 
     Market Volume & Pricing: What is the total number of listings and the average pricing across the market?
     Location Performance: Which locations have the highest number of listings, and which ones offer the lowest average prices?
