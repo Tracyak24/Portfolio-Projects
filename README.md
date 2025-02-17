@@ -21,7 +21,7 @@ Market Segmentation: How can properties be segmented into luxury and affordable 
 
 Size-to-Price Relationship: How does property size correlate with price, and what are the average prices across different square footage ranges?
 
-Methodology:
+# Methodology:
 
 Overall Metrics Calculation:
         Total Listings & Average Pricing: Using aggregate functions like COUNT() and AVG() to gauge overall market activity and pricing trends.
