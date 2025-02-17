@@ -53,7 +53,7 @@ Size-to-Price Relationship: How does property size correlate with price, and wha
         
 • Price Per Square Foot: Providing a detailed metric for property valuation and comparative market analysis.
 
-Value Proposition:
+# Value Proposition:
 
 This project showcases a robust analytical approach by combining data aggregation, filtering, and segmentation to generate comprehensive insights into the real estate market. The resulting analysis not only identifies key trends and potential market opportunities but also empowers stakeholders with actionable intelligence for strategic decision-making. By demonstrating my ability to manipulate and analyze complex datasets using SQL, I can deliver meaningful insights that drive value in real estate investment and market strategy.
 
