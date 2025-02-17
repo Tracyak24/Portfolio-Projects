@@ -1,7 +1,7 @@
 # Real-Estate-Market-Insights-Listing-Analysis
 An SQL-based analysis revealing key real estate market trends and listing insights.
 
-# Data Source: Kaggle
+Data Source: Kaggle
 
 
 Project Overview: Comprehensive Real Estate Market Analysis
@@ -11,31 +11,35 @@ This project is designed to extract and analyze critical insights from a real es
 
 # Key Business Questions Addressed:
 
-    Market Volume & Pricing: What is the total number of listings and the average pricing across the market?
-    Location Performance: Which locations have the highest number of listings, and which ones offer the lowest average prices?
-    Property Features: How do key property features—such as the number of bedrooms and bathrooms—relate to pricing?
-    Market Segmentation: How can properties be segmented into luxury and affordable markets?
-    Size-to-Price Relationship: How does property size correlate with price, and what are the average prices across different square footage ranges?
+Market Volume & Pricing: What is the total number of listings and the average pricing across the market?
+
+Location Performance: Which locations have the highest number of listings, and which ones offer the lowest average prices?
+
+Property Features: How do key property features—such as the number of bedrooms and bathrooms—relate to pricing?
+
+Market Segmentation: How can properties be segmented into luxury and affordable markets?
+
+Size-to-Price Relationship: How does property size correlate with price, and what are the average prices across different square footage ranges?
 
 Methodology:
 
-    Overall Metrics Calculation:
+Overall Metrics Calculation:
         Total Listings & Average Pricing: Using aggregate functions like COUNT() and AVG() to gauge overall market activity and pricing trends.
 
-    Location Analysis:
+Location Analysis:
         High-Volume Locations: Grouping listings by location to determine which area hosts the most properties.
         Cost Efficiency: Sorting locations by average listing price to highlight markets with the lowest entry costs.
 
-    Feature-Based Filtering:
+Feature-Based Filtering:
         Underpriced Properties: Identifying properties priced below the market average.
         Custom Search: Allowing for flexible filtering based on user-specified criteria (e.g., at least 3 bedrooms, 2 bathrooms, and a price cap), making the data actionable for targeted buyers.
-        High-Value & Luxury Listings: Isolating properties priced above $1,000,000 to understand the premium segment.
+High-Value & Luxury Listings: Isolating properties priced above $1,000,000 to understand the premium segment.
 
-    Comparative & Segmentation Analysis:
+Comparative & Segmentation Analysis:
         Luxury vs. Affordable Markets: Using conditional logic (CASE statements) to classify and compare market segments based on pricing thresholds.
         Average Feature Analysis: Calculating average numbers of bedrooms and bathrooms per location to assess property quality and market expectations.
 
-    Size & Price Correlation:
+Size & Price Correlation:
         Square Footage Analysis: Creating size ranges with a CASE statement and determining the average price per segment. This insight aids in understanding how property size influences overall market pricing.
         Price Per Square Foot: Providing a detailed metric for property valuation and comparative market analysis.
 
