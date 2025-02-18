@@ -20,7 +20,7 @@ This project is designed to extract and analyze critical insights from a real es
 
 • Market Segmentation: How can properties be segmented into luxury and affordable markets?
 
-Size-to-Price Relationship: How does property size correlate with price, and what are the average prices across different square footage ranges?
+• Size-to-Price Relationship: How does property size correlate with price, and what are the average prices across different square footage ranges?
 
 # Methodology:
 
