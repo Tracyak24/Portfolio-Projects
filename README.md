@@ -5,6 +5,7 @@ Data Source: Kaggle
 
 
 Project Overview: Comprehensive Real Estate Market Analysis
+
 Objective:
 
 This project is designed to extract and analyze critical insights from a real estate listings dataset. By leveraging advanced SQL techniques, the analysis aims to understand market trends, property pricing, and listing features—ultimately providing a data-driven foundation for real estate investment and market strategy.
