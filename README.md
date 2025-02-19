@@ -1,7 +1,7 @@
 # Real-Estate-Market-Insights-Listing-Analysis
 An SQL-based analysis revealing key real estate market trends and listing insights.
 
-Data Source: Kaggle
+• Data Source: Kaggle
 
 
 # Project Overview: Comprehensive Real Estate Market Analysis
