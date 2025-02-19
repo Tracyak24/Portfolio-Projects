@@ -1,13 +1,13 @@
 -- Total Number Of Listings
 
 SELECT COUNT(*) AS total_listings
-FROM homes_for_sale_and_real_estate_2;
+FROM homes_for_sale_and_real_estate;
 
 
 -- Average Pricing Of All Listings
 
 SELECT AVG(Price) AS average_pricing
-FROM homes_for_sale_and_real_estate_2;
+FROM homes_for_sale_and_real_estate;
 
 
 -- Location With The Highest Number Of Listings
@@ -16,7 +16,7 @@ SELECT
     Place, 
     COUNT(*) AS total_listings
 FROM 
-    homes_for_sale_and_real_estate_2
+    homes_for_sale_and_real_estate
 GROUP BY 
     Place
 ORDER BY 
@@ -33,9 +33,9 @@ SELECT
     Bath,
     `Sq.Ft`
 FROM
-  homes_for_sale_and_real_estate_2
+  homes_for_sale_and_real_estate
 WHERE 
-   Price <(SELECT AVG(Price) FROM homes_for_sale_and_real_estate_2);
+   Price <(SELECT AVG(Price) FROM homes_for_sale_and_real_estate);
    
    
 -- Total Number Of Listing & Average Price Of Listing Per Location
@@ -46,7 +46,7 @@ SELECT
     COUNT(*) AS total_listings, 
     ROUND(AVG(Price), 0) AS average_price
 FROM 
-    homes_for_sale_and_real_estate_2
+    homes_for_sale_and_real_estate
 GROUP BY 
     Place
 ORDER BY
@@ -64,7 +64,7 @@ SELECT
     Bath, 
     `Sq.Ft`
 FROM 
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 WHERE
    Beds >= 3 AND
    Bath >= 2 AND
@@ -83,7 +83,7 @@ SELECT
     Bath,
     `Sq.ft`
 FROM
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 WHERE
     Price > 1000000;
     
@@ -97,7 +97,7 @@ SELECT
     Bath,
     `Sq.Ft`
 FROM
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 ORDER BY
      Price DESC
 LIMIT 5;
@@ -110,7 +110,7 @@ SELECT
     ROUND(AVG(Beds), 0) AS average_beds,
     ROUND(AVG(Bath), 1) AS average_bath
 FROM
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 GROUP BY
       Place;
       
@@ -124,7 +124,7 @@ SELECT
     Bath,
     `Sq.Ft`
 FROM
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 WHERE
     Price BETWEEN 300000 AND 600000;
     
@@ -135,7 +135,7 @@ SELECT
     Place,
     SUM(`Sq.Ft`)
 FROM 
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 GROUP BY
       Place;
       
@@ -149,7 +149,7 @@ SELECT
     Bath,
     `Sq.Ft`
 FROM
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 WHERE
    Beds = 0 OR
    Bath = 0;
@@ -163,7 +163,7 @@ SELECT
     `Sq.Ft`, 
     ROUND((Price / `Sq.Ft`), 2) AS Price_Per_SqFt
 FROM
-   homes_for_sale_and_real_estate_2;
+   homes_for_sale_and_real_estate;
    
    
 -- Custom Search Query
@@ -175,7 +175,7 @@ SELECT
     Price,
     `Sq.Ft`
 FROM
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 WHERE
     Beds >= 3 AND
     Bath >= 2 AND
@@ -192,7 +192,7 @@ SELECT
     ROUND(AVG(Beds), 0) AS Average_Beds,
     ROUND(AVG(Bath), 1) AS Average_Bath
 FROM
-   homes_for_sale_and_real_estate_2
+   homes_for_sale_and_real_estate
 GROUP BY 
       Market_Category;
       
@@ -209,7 +209,7 @@ SELECT
     END AS Size_Range,
     ROUND(AVG(Price), 0) AS Average_Price
 FROM 
-    homes_for_sale_and_real_estate_2
+    homes_for_sale_and_real_estate
 GROUP BY 
     Size_Range
 ORDER BY 
